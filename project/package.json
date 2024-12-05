@@ -6,7 +6,10 @@
   "scripts": {
     "frontend": "vite",
     "backend": "node ../server/server.js",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+      "build": "vite build",
+  "serve": "vite preview"
+
   },
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
